@@ -10,7 +10,7 @@ setup(
     name         = 'requests-runscope',
     version      = '0.1.4.1',
     packages     = [ 'requests_runscope' ],
-    requires     = [ 'requests(>=1.0.0)' ],
+    requires     = [ 'requests(==1.2.0)' ],
     provides     = [ 'requests_runscope' ],
     include_package_data = True,
     author       = 'Runscope Inc.',
